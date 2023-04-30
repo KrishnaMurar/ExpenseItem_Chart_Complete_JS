@@ -17,10 +17,10 @@ const ExpenseList = props => {
 
 )}
 </ul>
-<h2 className ='expense-list__fallback'>Only single Expense here. Please add more...</h2></div>)
+<h2 className ='expenses-list__fallback'>Only single Expense here. Please add more...</h2></div>)
  }
     return (
-        <ul className = 'expense-list'>
+        <ul className = 'expenses-list'>
                 {props.items.map((expenses) => (
         <ExpenseItem key ={expenses.id} title = {expenses.title} Amount = {expenses.Amount} Date = {expenses.Date} />
          

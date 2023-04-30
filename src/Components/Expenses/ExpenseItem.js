@@ -23,7 +23,7 @@ import './ExpenseItem.css';
       
       
       </Card>
-      </li>
+     </li>
     );
   }
  
